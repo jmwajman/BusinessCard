@@ -1,0 +1,185 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/05/31/15/07/business-792113_960_720.jpg");
+  background-size: 100%;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+button {
+  display: block;
+  background: none;
+  border-radius: 50%;
+  border: none;
+  font-weight: 500;
+  padding: 6% 2% 6% 2%;
+  position: relative;
+  margin-top: 9%;
+  left: 23.5%;
+  transition: all 200ms ease-in-out;
+  color: white;
+  font-family: "Yusei Magic", sans-serif;
+  transform: rotate(6deg);
+  font-size: calc(0.002rem + 2.3vw);
+}
+
+button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  border: none;
+}
+
+.mobile {
+  border: none;
+  width: 15%;
+  height: 9%;
+  display: block;
+  position: relative;
+  margin-top: 7.2%;
+  left: 24.4%;
+  color: white;
+  text-align: center;
+  transform: rotate(1.5deg);
+  font-weight: 500;
+  font-size: calc(0.002rem + 1.3vw);
+}
+
+h2 {
+  font-size: calc(0.002rem + 1.6vw);
+  display: block;
+  padding: 0;
+}
+ul {
+  padding: 0;
+  text-align: center;
+}
+
+#email {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+}
+
+#email:hover {
+  transition: all 200ms ease-in-out;
+  color: grey;
+}
+
+.column-one {
+  display: block;
+  position: relative;
+  left: -23.7%;
+  margin: calc(0.02rem + 3.05vw) 0 0 0;
+  padding: calc(0.01rem + 3.7vw) 0 0 0;
+  transform: rotate(1.5deg);
+  font-size: calc(0.001rem + 1.08vw);
+}
+
+h4 {
+  font-size: 120%;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  padding: calc(0.001rem + 0.85vw) 0 calc(0.001rem + 0.55vw) 0;
+}
+
+a {
+  display: block;
+  color: grey;
+  text-decoration: none;
+  padding: 0 0 calc(0.001rem + 1.5vw) 0;
+}
+
+a:hover {
+  color: brown;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  padding: 0 0 calc(0.001rem + 1.5vw) 0;
+}
+
+.column-two {
+  display: block;
+  position: relative;
+  left: -12.6%;
+  margin: calc(-1rem - 13.5vw) 0 0 0;
+  padding: calc(-1.2rem + 0.7vw) 0 0 0;
+  transform: rotate(-0.5deg);
+  font-size: calc(0.001rem + 1vw);
+}
+
+.cv {
+  width: 37%;
+  position: relative;
+  display: block;
+  right: -46.5%;
+  font-family: "DM Sans", sans-serif;
+  margin: calc(-1rem - 41.5vw) 0 3% 0;
+  transform: rotate(-0.65deg);
+  padding: 1% 0 2% 0;
+}
+
+#photo {
+  border: solid 1px black;
+  margin: 0 2% 3% 1%;
+}
+
+h5 {
+  font-size: calc(0.01rem + 1.3vw);
+  padding: 0 0 7px 1px;
+  margin: 0 0 1px 0;
+  display: block;
+}
+.name {
+  font-weight: 900;
+  font-size: calc(0.02rem + 1.5vw);
+  margin-bottom: 0.7%;
+}
+
+h6 {
+  display: block;
+  margin: 1% 0 0.5% 0;
+  font-weight: 800;
+  font-size: calc(0.005rem + 1vw);
+  padding: 1.8% 0 0 1%;
+}
+
+p {
+  display: block;
+  margin: 0 auto;
+  font-size: calc(0.001rem + 0.9vw);
+  font-weight: 700;
+  padding: 0.5% 0 0 0;
+}
+
+p1 {
+  display: block;
+  margin: 0;
+  font-size: calc(0.001rem + 0.9vw);
+  padding: 0.5% 0 0 0;
+}
+
+p2 {
+  display: block;
+  margin: 0;
+  font-size: calc(0.001rem + 0.9vw);
+  padding: 0.5% 0 0 0;
+  font-weight: 700;
+}
+
+hr {
+  display: block;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 0.5%;
+  width: 100%;
+  margin: -0.05% 0 1% 0;
+  padding: 0;
+}
+
+p3 {
+  font-size: calc(0.001rem + 1.08vw);
+  font-weight: 300;
+  display: block;
+}
